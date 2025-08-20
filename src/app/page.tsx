@@ -1,7 +1,10 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import Image from "next/image";
+import MovingCards from "@/components/MovingCards";
+import UpComingWebinars from "@/components/UpComingWebinars";
+import Instructor from "@/components/Instructor";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +13,10 @@ export default function Home() {
         <HeroSection />
         <FeaturedSection />
         <WhyChooseUs />
+        <MovingCards />
+        <UpComingWebinars />
+        <Instructor />
+        <Footer />
       </main>
     </>
   );
