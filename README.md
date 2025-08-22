@@ -1,37 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎶 MUSIC-PEACE
 
-## Getting Started
+_A Modern Music School Website built with Next.js & Tailwind CSS_
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📌 Project Overview
+
+**MUSIC-PEACE** is a responsive and modern web application designed for a music school.  
+It provides information about courses, instructors, upcoming webinars, and student testimonials.  
+The project is built with **Next.js 13 (App Router)**, **TypeScript**, and **Tailwind CSS** for fast, scalable, and maintainable development.
+
+---
+
+## 🚀 Features
+
+- 🎼 **Beautiful Landing Page** with hero section and animated UI components
+- 🎹 **Courses Section** to explore available music programs
+- 🎤 **Testimonials (Moving Cards)** for student & parent feedback
+- 🎶 **Featured Webinars** to enhance the learning journey
+- 👩‍🏫 **Instructor Profiles** with details of teachers
+- 🎨 **Modern UI Components** (custom cards, hover effects, sticky scroll, tooltips, etc.)
+- 📱 **Fully Responsive Design** for mobile, tablet, and desktop
+- 🌙 **Dark Mode Support**
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 13](https://nextjs.org/) (with App Router)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) (animations)
+- [React Icons](https://react-icons.github.io/react-icons/) (social & UI icons)
+
+---
+
+## 📂 Project Structure
+
+---
+
+```
+MUSIC-PEACE/
+├── public/                     # Public assets (images, icons, etc.)
+├── src/
+│   ├── app/                    # App Router pages
+│   │   ├── contact/            # Contact page
+│   │   ├── courses/            # Courses page
+│   │   ├── layout.tsx          # Global layout
+│   │   ├── page.tsx            # Home page
+│   │   └── globals.css         # Global styles
+│   │
+│   ├── components/             # Reusable components
+│   │   └── ui/                 # UI elements
+│   │       ├── 3d-card.tsx
+│   │       ├── animated-tooltip.tsx
+│   │       ├── background-gradient.tsx
+│   │       ├── card-hover-effect.tsx
+│   │       ├── infinite-moving-cards.tsx
+│   │       ├── moving-border.tsx
+│   │       ├── navbar-menu.tsx
+│   │       ├── Spotlight.tsx
+│   │       ├── sticky-scroll-reveal.tsx
+│   │       ├── wavy-background.tsx
+│   │       ├── FeaturedSection.tsx
+│   │       ├── Footer.tsx
+│   │       ├── HeroSection.tsx
+│   │       ├── Instructor.tsx
+│   │       ├── MovingCards.tsx
+│   │       ├── Navbar.tsx
+│   │       ├── UpComingWebinars.tsx
+│   │       └── WhyChooseUs.tsx
+│   │
+│   ├── data/                   # Static JSON data
+│   │   └── music_courses.json
+│   │
+│   └── utils/                  # Utility functions
+│
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── package-lock.json
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎼 Modern UI with reusable components
+- 📚 Courses page with JSON-driven data
+- 👨‍🏫 Instructor highlights & testimonials
+- 🎥 Upcoming Webinars section
+- 🎨 Animations (cards, tooltips, gradients, scroll effects)
+- 📱 Fully responsive with Tailwind CSS
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 14 (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** (for animations)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📌 Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Install dependencies
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Unlock-Next
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```

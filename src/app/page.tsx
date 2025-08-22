@@ -4,6 +4,9 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import MovingCards from "@/components/MovingCards";
 import UpComingWebinars from "@/components/UpComingWebinars";
 import Instructor from "@/components/Instructor";
+import Testimonials from "@/components/Testimonials";
+import Pricing from "@/components/Pricing";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,6 +19,9 @@ export default function Home() {
         <MovingCards />
         <UpComingWebinars />
         <Instructor />
+        <Testimonials />
+        <Pricing />
+        <FAQ />
         <Footer />
       </main>
     </>

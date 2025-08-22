@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "role": "Piano Student",
+      "image": "https://images.unsplash.com/photo-1494790108755-2616b612c2d5?w=400&h=400&fit=crop&crop=face",
+      "content": "The piano courses here transformed my musical journey. The instructors are incredibly patient and knowledgeable. I went from complete beginner to playing complex pieces in just 6 months!",
+      "rating": 5,
+      "course": "Piano for Beginners"
+    },
+    {
+      "id": 2,
+      "name": "Marcus Rodriguez",
+      "role": "Guitar Enthusiast",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      "content": "I've tried many online guitar courses, but this platform stands out. The structured approach and interactive lessons made learning so much easier. Highly recommended!",
+      "rating": 5,
+      "course": "Guitar Fundamentals"
+    },
+    {
+      "id": 3,
+      "name": "Emily Chen",
+      "role": "Music Producer",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+      "content": "The Electronic Music Production course gave me the skills I needed to start my career. The hands-on projects and feedback from instructors were invaluable.",
+      "rating": 5,
+      "course": "Electronic Music Production"
+    },
+    {
+      "id": 4,
+      "name": "David Wilson",
+      "role": "Music Teacher",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      "content": "As a music teacher myself, I was impressed by the quality of instruction. The music theory course helped me understand concepts I'd struggled with for years.",
+      "rating": 5,
+      "course": "Music Theory Basics"
+    },
+    {
+      "id": 5,
+      "name": "Lisa Thompson",
+      "role": "Violin Student",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face",
+      "content": "Learning violin as an adult seemed impossible until I found this platform. The step-by-step approach and supportive community made all the difference.",
+      "rating": 5,
+      "course": "Violin Essentials"
+    },
+    {
+      "id": 6,
+      "name": "Alex Turner",
+      "role": "Drummer",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+      "content": "The drumming courses are fantastic! From basic beats to complex rhythms, everything is explained clearly. My bandmates can't believe how much I've improved.",
+      "rating": 5,
+      "course": "Advanced Drumming Techniques"
+    }
+  ]
+} 
